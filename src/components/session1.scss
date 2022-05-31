@@ -1,0 +1,97 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+
+/*              */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-sesscion1-general {
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor-session1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+.title-b {
+    padding-top: 45px;
+    font-size: 55px;
+    font-family: 'Arimo';
+    color: #000;
+    width: 400px;
+
+}
+
+.description-b {
+    display: flex;
+    font-size: 15px;
+    font-family: 'Arimo';
+    color: #1E1D1B;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 400px;
+
+}
+
+.boton-probar-gratis {
+    width: 400px;
+    border-style: solid;
+    border-color: #611E6B;
+    background-color: #611E6B;
+    padding: 15px 5px 15px 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Arimo';
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.boton-probar-gratis:hover {
+    color: #611E6B;
+    background-color: transparent;
+    transition: 0.7s;
+}
+
+.boton-registrarse-google {
+    width: 400px;
+    border-style: solid;
+    border-color: #1377b1;
+    background-color: #1377b1;
+    padding: 15px 5px 15px 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Arimo';
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.boton-registrarse-google:hover {
+    color: #1377b1;
+    background-color: transparent;
+    transition: 0.7s;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    width: 40%;
+    height: 90%;
+    margin-right: 10px;
+
+}
+
+.contenedor-colaboraciones {
+    margin-top: 65px;
+}

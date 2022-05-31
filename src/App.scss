@@ -1,0 +1,124 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+
+/*              */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F6EFE7;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding-top: 20px;
+	justify-content: center;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+.logotipo {
+	display: flex;
+	font-family: 'Teko';
+	padding-right: 25px;
+	font-size: 30px;
+	font-family: 'Righteous';
+
+}
+
+header nav a {
+	text-decoration: none;
+	font-size: 17px;
+	padding-right: 25px;
+	font-family: 'Arimo';
+	color: rgb(20, 20, 20);
+
+}
+
+
+.contenedor-final-nav {
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+}
+
+.nav-sesion-text {
+	text-decoration: none;
+	font-size: 17px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 250px;
+	font-family: 'Arimo';
+	color: rgb(20, 20, 20);
+
+
+}
+
+.btn-ventas {
+	border-style: solid;
+	border-color: #611E6B;
+	background-color: transparent;
+	padding: 5px 6px 5px 6px;
+	border-radius: 5px;
+	color: #611E6B;
+	font-family: 'Arimo';
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.btn-ventas:hover {
+	color: #fff;
+	background-color: #611E6B;
+	transition: 0.7s;
+}
+
+.btn-probar-gratis {
+	border-style: solid;
+	border-color: #611E6B;
+	background-color: #611E6B;
+	padding: 5px 6px 5px 6px;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Arimo';
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.btn-probar-gratis:hover {
+	color: #611E6B;
+	background-color: transparent;
+	transition: 0.7s;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: rgb(51, 51, 51);
+	;
+	transition: 0.8s;
+
+}
+
+.Logo {
+	width: 40%;
+	height: 20%;
+	margin-top: 5px;
+
+
+}
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+
+@media screen and (max-width: 600px) {}
